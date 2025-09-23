@@ -93,7 +93,13 @@
       transition: 0.3s;
       
     }
-
+    .btn:disabled{
+      background: grey;
+      cursor: not-allowed;
+    }
+    .isbn{
+      font-weight: 200;
+    }
 
     .btn:focus {
       outline: none;
@@ -242,6 +248,9 @@
     .book .book-cover button.isRead {
       background-color: #1cab47;
     }
+    .book .book-cover button.reading {
+      background-color: #e7be08;
+    }
      
     .book .book-cover button span {
       font-weight: 500;
@@ -269,7 +278,7 @@
     }
      
     .book .readIt {
-      padding: 10px 20px;
+      padding: 10px 12px;
       position: absolute;
       left: auto;
       right: 5px;
@@ -279,6 +288,19 @@
       border-radius: 25px;
       overflow: hidden;
       background-color: #1cab47;
+      color: white;
+    }
+     .book .readingg {
+      padding: 10px 12px;
+      position: absolute;
+      left: auto;
+      right: 5px;
+      bottom: auto;
+      top: 5px;
+      z-index: 10;
+      border-radius: 25px;
+      overflow: hidden;
+      background-color: #e7be08;
       color: white;
     }
      

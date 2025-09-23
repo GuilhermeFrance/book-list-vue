@@ -5,6 +5,7 @@ let newBook = {
     title: "",
     cover: "",
     isRead: false,
+    reading: false,
     isbn: "",
     author: "",
 }
