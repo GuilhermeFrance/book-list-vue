@@ -117,7 +117,7 @@ function toggleIsRead(id) {
 
 <template>
   <div v-if="!showAddContainer" class="container">
-    <h1>📖 Meus Livros</h1>
+    <h1> Meus Livros</h1>
     <div class="header-btns">
       <button @click="showAddContainer = !showAddContainer" class="btn" disabled>Adicionar Livro +</button>
     </div>
